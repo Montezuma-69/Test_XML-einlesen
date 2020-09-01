@@ -18,6 +18,9 @@
     <ClCompile Include="Test_XML einlesen.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="database.xml">
@@ -28,5 +31,11 @@
     <ClInclude Include="id3lib-3.8.3\include\id3\tag.h">
       <Filter>Quelldateien</Filter>
     </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>Ressourcendateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
